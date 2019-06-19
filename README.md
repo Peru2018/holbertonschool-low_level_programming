@@ -1,1 +1,1 @@
-Repo for C
+This repository will contain files that have been created using basic C code.Repo for C
