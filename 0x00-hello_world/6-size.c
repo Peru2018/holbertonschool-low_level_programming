@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-int integerType;
+int intType;
 float floatType;
 long int longintType;
-long long int longlongtype;
+long long int longlongintType;
 char charType;
 
 printf("Size of a char: %ld byte(s)\n", sizeof(charType));
