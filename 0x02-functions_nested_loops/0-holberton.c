@@ -1,9 +1,14 @@
 #include "holberton.h"
 #include <unistd.h>
-
+/**
+ * main - check the code for Holberton School students.
+ *
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
-
 {
+
 	_putchar('H');
 
 	_putchar('o');
