@@ -4,13 +4,21 @@
  * puts2 - print one char out of 2 of a string, followed by a new line.
  * @str: string.
  *
- * Return: Always 0.
+ * Return: void
  */
 void puts2(char *str)
 {
 	int  i;
 
-	for (i = 0; str[i] >= 0 && str[i] != '\0'; i = i + 2)
+	int count;
+
+	count = 0;
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		count++;
+	}
+	for (i = 0; str[i] != '\0'; i = i + 2)
 	{
 		_putchar(str[i]);
 	}
